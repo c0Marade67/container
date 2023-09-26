@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Criando meu Sidebar-->
+
+    <title>Estoque de Produtos</title>
+</head>
+<body>
+    <aside class="sidebar">
+        <header class="sidebar-header">
+            <img  class="logo-img" src="img/logo.png" alt="Foto usuario"/>
+            <h4>Bem vindo!</h4>
+        </header>
+        <nav>
+            <button>
+                <span>
+                    <span class="material-symbols-outlined">
+                        inventory_2
+                        </span>
+                    <span>Fabricados</span>
+                </span>
+            <button>
+                <span>
+                    <span class="material-symbols-outlined">
+                        local_shipping
+                        </span>
+                    <span>Distibruidos</span>
+                </span>
+            </button>
+            <button>
+                <span>
+                    <span class="material-symbols-outlined">
+                        shopping_cart
+                        </span>
+                    <span>Estoque</span>
+                </span>
+            </button>
+
+        </nav>
+
+    </aside>
+    <!--Criando meu mobile-->
+    <button class="button-mobile" onclick="toggleMenu()">
+        <i class="material-symbols-outlined"> menu </i>
+        <span>menu</span>
+    </button>
+
+    <nav class="menu-mobile" id="menu-mobile">
+        <button class="button-close" onclick="toggleMenu()">
+            <span>
+                <i class="material-symbols-outlined">close</i>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined">:</i>
+                <span class="mobile-text">fabricados</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined">:</i>
+                <span class="mobile-text">Distibruidos</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined">:</i>
+                <span class="mobile-text">estoque</span>
+            </span>
+           
+        </button>
+    </nav>  
+    </main>
+    <main class="main">
+        <h1 class="section">Setor de fabricação</h1>
+            <ul class="nav-menu">
+                <li><a href="principal.html">Inicio</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="login.html">Login</a></li>
+            
+            </ul>
+    </nav>
+   
+<script src="script.js"></script>
+</body>
+</html>
